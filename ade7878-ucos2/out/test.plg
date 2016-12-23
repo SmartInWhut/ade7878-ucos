@@ -1,0 +1,194 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\git\ade7878-ucos\ade7878-ucos2\APP\test.uvproj
+Project File Date:  12/23/2016
+
+<h2>Output:</h2>
+Build target 'test'
+assembling stm32f10x_startup.s...
+compiling app.c...
+app.c(63): warning:  #550-D: variable "os_err" was set but never used
+app.c:      CPU_INT08U os_err;
+app.c:                 ^
+app.c: app.c: 1 warning, 0 errors
+compiling stm32f10x_it.c...
+compiling Com.c...
+compiling bsp.c...
+compiling ade7878.c...
+compiling EXTI.c...
+compiling spi.c...
+compiling tim3.c...
+compiling printf.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_spi.c...
+compiling os_cpu_c.c...
+compiling os_dbg.c...
+compiling os_core.c...
+compiling os_flag.c...
+compiling os_mbox.c...
+compiling os_mem.c...
+compiling os_mutex.c...
+compiling os_q.c...
+compiling os_sem.c...
+compiling os_task.c...
+compiling os_time.c...
+compiling os_tmr.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=12196 RO-data=464 RW-data=120 ZI-data=7376  
+FromELF: creating hex file...
+"..\out\test.axf" - 0 Error(s), 1 Warning(s).
+Build target 'test'
+compiling app.c...
+app.c(63): warning:  #550-D: variable "os_err" was set but never used
+app.c:      CPU_INT08U os_err;
+app.c:                 ^
+app.c(115): error:  #268: declaration may not appear after executable statement in block
+app.c:      OS_CPU_     SysTickInit();                                       /* Initialize the SysTick.       */
+app.c:      ^
+app.c(115): error:  #20: identifier "OS_CPU_" is undefined
+app.c:      OS_CPU_     SysTickInit();                                       /* Initialize the SysTick.       */
+app.c:      ^
+app.c: app.c: 1 warning, 2 errors
+compiling stm32f10x_it.c...
+Target not created
+Build target 'test'
+compiling app.c...
+app.c(63): warning:  #550-D: variable "os_err" was set but never used
+app.c:      CPU_INT08U os_err;
+app.c:                 ^
+app.c: app.c: 1 warning, 0 errors
+linking...
+Program Size: Code=12744 RO-data=464 RW-data=144 ZI-data=7696  
+FromELF: creating hex file...
+"..\out\test.axf" - 0 Error(s), 1 Warning(s).
+Build target 'test'
+compiling app.c...
+app.c(64): warning:  #550-D: variable "os_err" was set but never used
+app.c:      CPU_INT08U os_err;
+app.c:                 ^
+app.c(183): error:  #20: identifier "testdat" is undefined
+app.c:                          test1=testdat[3] + testdat[2]*256 + testdat[1]*65536;
+app.c:                                ^
+app.c(190): warning:  #223-D: function "sqrt" declared implicitly
+app.c:                                  i_RMS=(irms/4191910.0) *0.5/sqrt(2.0)/136*1000;  //机器人板子对应公式 YK 2016.6.23
+app.c:                                                              ^
+app.c(231): error:  #20: identifier "Com1_MBOX" is undefined
+app.c:                  msg=(unsigned char *)OSMboxPend(Com1_MBOX,0,&err);
+app.c:                                                  ^
+app.c(231): error:  #20: identifier "err" is undefined
+app.c:                  msg=(unsigned char *)OSMboxPend(Com1_MBOX,0,&err);
+app.c:                                                               ^
+app.c: app.c: 2 warnings, 3 errors
+compiling stm32f10x_it.c...
+stm32f10x_it.c(526): error:  #20: identifier "err" is undefined
+stm32f10x_it.c:                 OSSemPend(Send1_c_SEM,0,&err);
+stm32f10x_it.c:                                          ^
+stm32f10x_it.c: stm32f10x_it.c: 0 warnings, 1 error
+Target not created
+Build target 'test'
+compiling app.c...
+app.c(64): warning:  #550-D: variable "os_err" was set but never used
+app.c:      CPU_INT08U os_err;
+app.c:                 ^
+app.c(183): error:  #20: identifier "testdat" is undefined
+app.c:                          test1=testdat[3] + testdat[2]*256 + testdat[1]*65536;
+app.c:                                ^
+app.c(190): warning:  #223-D: function "sqrt" declared implicitly
+app.c:                                  i_RMS=(irms/4191910.0) *0.5/sqrt(2.0)/136*1000;  //机器人板子对应公式 YK 2016.6.23
+app.c:                                                              ^
+app.c(232): error:  #20: identifier "Com1_MBOX" is undefined
+app.c:                  msg=(unsigned char *)OSMboxPend(Com1_MBOX,0,&err);
+app.c:                                                  ^
+app.c: app.c: 2 warnings, 2 errors
+compiling stm32f10x_it.c...
+stm32f10x_it.c(526): error:  #20: identifier "err" is undefined
+stm32f10x_it.c:                 OSSemPend(Send1_c_SEM,0,&err);
+stm32f10x_it.c:                                          ^
+stm32f10x_it.c: stm32f10x_it.c: 0 warnings, 1 error
+Target not created
+Build target 'test'
+compiling app.c...
+app.c(64): warning:  #550-D: variable "os_err" was set but never used
+app.c:      CPU_INT08U os_err;
+app.c:                 ^
+app.c(183): error:  #20: identifier "testdat" is undefined
+app.c:                          test1=testdat[3] + testdat[2]*256 + testdat[1]*65536;
+app.c:                                ^
+app.c(190): warning:  #223-D: function "sqrt" declared implicitly
+app.c:                                  i_RMS=(irms/4191910.0) *0.5/sqrt(2.0)/136*1000;  //机器人板子对应公式 YK 2016.6.23
+app.c:                                                              ^
+app.c: app.c: 2 warnings, 1 error
+compiling stm32f10x_it.c...
+stm32f10x_it.c(526): error:  #20: identifier "err" is undefined
+stm32f10x_it.c:                 OSSemPend(Send1_c_SEM,0,&err);
+stm32f10x_it.c:                                          ^
+stm32f10x_it.c: stm32f10x_it.c: 0 warnings, 1 error
+Target not created
+Build target 'test'
+compiling app.c...
+app.c(64): warning:  #550-D: variable "os_err" was set but never used
+app.c:      CPU_INT08U os_err;
+app.c:                 ^
+app.c(183): error:  #20: identifier "testdat" is undefined
+app.c:                          test1=testdat[3] + testdat[2]*256 + testdat[1]*65536;
+app.c:                                ^
+app.c(190): warning:  #223-D: function "sqrt" declared implicitly
+app.c:                                  i_RMS=(irms/4191910.0) *0.5/sqrt(2.0)/136*1000;  //机器人板子对应公式 YK 2016.6.23
+app.c:                                                              ^
+app.c: app.c: 2 warnings, 1 error
+compiling stm32f10x_it.c...
+Target not created
+Build target 'test'
+compiling app.c...
+app.c(64): warning:  #550-D: variable "os_err" was set but never used
+app.c:      CPU_INT08U os_err;
+app.c:                 ^
+app.c(183): error:  #20: identifier "testdat" is undefined
+app.c:                          test1=testdat[3] + testdat[2]*256 + testdat[1]*65536;
+app.c:                                ^
+app.c(190): warning:  #223-D: function "sqrt" declared implicitly
+app.c:                                  i_RMS=(irms/4191910.0) *0.5/sqrt(2.0)/136*1000;  //机器人板子对应公式 YK 2016.6.23
+app.c:                                                              ^
+app.c: app.c: 2 warnings, 1 error
+compiling bsp.c...
+..\BSP\bsp.c(29): warning:  #177-D: variable "testdat" was declared but never referenced
+..\BSP\bsp.c:           u8 testdat[4]={0x00,0x30,0x00,0x00};
+..\BSP\bsp.c:              ^
+..\BSP\bsp.c: ..\BSP\bsp.c: 1 warning, 0 errors
+Target not created
+Build target 'test'
+compiling app.c...
+app.c(66): warning:  #550-D: variable "os_err" was set but never used
+app.c:      CPU_INT08U os_err;
+app.c:                 ^
+app.c(185): error:  #20: identifier "testdat" is undefined
+app.c:                          test1=testdat[3] + testdat[2]*256 + testdat[1]*65536;
+app.c:                                ^
+app.c: app.c: 1 warning, 1 error
+compiling bsp.c...
+..\BSP\bsp.c(30): warning:  #177-D: variable "testdat" was declared but never referenced
+..\BSP\bsp.c:           u8 testdat[4]={0x00,0x30,0x00,0x00};
+..\BSP\bsp.c:              ^
+..\BSP\bsp.c: ..\BSP\bsp.c: 1 warning, 0 errors
+Target not created
+Build target 'test'
+compiling app.c...
+app.c(67): warning:  #550-D: variable "os_err" was set but never used
+app.c:      CPU_INT08U os_err;
+app.c:                 ^
+app.c: app.c: 1 warning, 0 errors
+compiling bsp.c...
+linking...
+Program Size: Code=17146 RO-data=466 RW-data=192 ZI-data=7696  
+FromELF: creating hex file...
+"..\out\test.axf" - 0 Error(s), 1 Warning(s).

@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "..\out\stm32f10x_startup.o" "..\out\app.o" "..\out\stm32f10x_it.o" "..\out\com.o" "..\out\bsp.o" "..\out\ade7878.o" "..\out\exti.o" "..\out\spi.o" "..\out\tim3.o" "..\out\printf.o" "..\out\misc.o" "..\out\stm32f10x_gpio.o" "..\out\stm32f10x_rcc.o" "..\out\stm32f10x_usart.o" "..\out\stm32f10x_exti.o" "..\out\stm32f10x_tim.o" "..\out\stm32f10x_spi.o" "..\out\os_cpu_c.o" "..\out\os_dbg.o" "..\out\os_cpu_a.o" "..\out\cpu_a.o" "..\out\os_core.o" "..\out\os_flag.o" "..\out\os_mbox.o" "..\out\os_mem.o" "..\out\os_mutex.o" "..\out\os_q.o" "..\out\os_sem.o" "..\out\os_task.o" "..\out\os_time.o" "..\out\os_tmr.o" "..\out\core_cm3.o" "..\out\system_stm32f10x.o" --strict --scatter "..\out\test.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\list\test.map" -o "..\out\test.axf"

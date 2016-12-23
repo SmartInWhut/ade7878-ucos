@@ -1,0 +1,51 @@
+*** Creating Trace Output File '..\out\test.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\out\stm32f10x_startup.o"'
+### List of Objects: adding '"..\out\app.o"'
+### List of Objects: adding '"..\out\stm32f10x_it.o"'
+### List of Objects: adding '"..\out\com.o"'
+### List of Objects: adding '"..\out\bsp.o"'
+### List of Objects: adding '"..\out\ade7878.o"'
+### List of Objects: adding '"..\out\exti.o"'
+### List of Objects: adding '"..\out\spi.o"'
+### List of Objects: adding '"..\out\tim3.o"'
+### List of Objects: adding '"..\out\printf.o"'
+### List of Objects: adding '"..\out\misc.o"'
+### List of Objects: adding '"..\out\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\out\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\out\stm32f10x_usart.o"'
+### List of Objects: adding '"..\out\stm32f10x_exti.o"'
+### List of Objects: adding '"..\out\stm32f10x_tim.o"'
+### List of Objects: adding '"..\out\stm32f10x_spi.o"'
+### List of Objects: adding '"..\out\os_cpu_c.o"'
+### List of Objects: adding '"..\out\os_dbg.o"'
+### List of Objects: adding '"..\out\os_cpu_a.o"'
+### List of Objects: adding '"..\out\cpu_a.o"'
+### List of Objects: adding '"..\out\os_core.o"'
+### List of Objects: adding '"..\out\os_flag.o"'
+### List of Objects: adding '"..\out\os_mbox.o"'
+### List of Objects: adding '"..\out\os_mem.o"'
+### List of Objects: adding '"..\out\os_mutex.o"'
+### List of Objects: adding '"..\out\os_q.o"'
+### List of Objects: adding '"..\out\os_sem.o"'
+### List of Objects: adding '"..\out\os_task.o"'
+### List of Objects: adding '"..\out\os_time.o"'
+### List of Objects: adding '"..\out\os_tmr.o"'
+### List of Objects: adding '"..\out\core_cm3.o"'
+### List of Objects: adding '"..\out\system_stm32f10x.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\out\stm32f10x_startup.o" "..\out\app.o" "..\out\stm32f10x_it.o" "..\out\com.o" "..\out\bsp.o" "..\out\ade7878.o" "..\out\exti.o" "..\out\spi.o" "..\out\tim3.o" "..\out\printf.o" "..\out\misc.o" "..\out\stm32f10x_gpio.o" "..\out\stm32f10x_rcc.o" "..\out\stm32f10x_usart.o" "..\out\stm32f10x_exti.o" "..\out\stm32f10x_tim.o" "..\out\stm32f10x_spi.o" "..\out\os_cpu_c.o" "..\out\os_dbg.o" "..\out\os_cpu_a.o" "..\out\cpu_a.o" "..\out\os_core.o" "..\out\os_flag.o" "..\out\os_mbox.o" "..\out\os_mem.o" "..\out\os_mutex.o" "..\out\os_q.o" "..\out\os_sem.o" "..\out\os_task.o" "..\out\os_time.o" "..\out\os_tmr.o" "..\out\core_cm3.o" "..\out\system_stm32f10x.o" --strict --scatter "..\out\test.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\list\test.map" -o "..\out\test.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\out\test.axf'
+### ADS-LD Command File: '..\out\test.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\out\test.lnp', Handle=0x000007B8
+### Writing '.lnp' file
+### ADS-LD Command file '..\out\test.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
